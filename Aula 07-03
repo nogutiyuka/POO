@@ -1,0 +1,31 @@
+public class App {
+    public static void main(String[] args) throws Exception {
+        int cont = 0; //Atributo iniciaco
+        Carro camaro = new Carro(); //Objeto instanciado
+        camaro.cor = "AMARELO";
+        camaro.qtdPortas = 4;
+        camaro.marca = "CHEVROLET";
+        camaro.modelo = "";
+        camaro.ano = 2019;
+        camaro.quilometragem = 0;
+        camaro.observacao = "NADA";
+
+        Cliente cliente1 = new Cliente();
+        cliente1.nome = "Yuka";
+        cliente1.email = "meuNome@gmail.com";
+        cliente1.senha = "123senha";
+
+        Anunciante anunciante1 = new Anunciante();
+        anunciante1.nome = "Keren";
+        anunciante1.email = "seuNome@gmail.com";
+        anunciante1.senha = "123suaSenha";
+
+        System.out.println(anunciante1.nome);
+
+
+
+
+    }
+}
+
+// Instanciação é o ato de iniciar um objeto;
