@@ -1,0 +1,21 @@
+3 - Crie uma função EM JAVA que dado um numero inteiro, retorne a soma de zero até ele.
+
+public class Teste {
+    public static void main(String[] args) {
+
+        Scanner teclado = new Scanner (System.in);
+        System.out.println("Valor: ");
+        int num = teclado.nextInt();
+        int soma = soma(num);
+        System.out.println(soma);
+    }
+
+    static int soma(int num){
+        int soma = 0;
+        for (int i = 1; i <= num; i++){
+            soma = soma + i;
+        }
+        return soma;
+    }
+
+}
