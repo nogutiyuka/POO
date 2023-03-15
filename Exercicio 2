@@ -1,0 +1,17 @@
+2 - Crie um procedimento EM JAVA que imprima os nomes dos tipos de dados/variáveis da linguagem JAVA
+
+public class Teste {
+    public static void main(String[] args) {
+
+        tipos();
+    }
+
+    static void tipos(){
+        System.out.println("String");
+        System.out.println("int");
+        System.out.println("double");
+        System.out.println("float");
+        
+    }
+
+}
