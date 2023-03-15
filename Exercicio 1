@@ -1,3 +1,5 @@
+1 - Crie uma função EM JAVA que dado um salário e uma porcentagem de aumento retorne o valor do salário atualizado
+
 import java.util.Scanner;
 
 public class Teste {
