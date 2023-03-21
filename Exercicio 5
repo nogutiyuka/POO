@@ -1,0 +1,20 @@
+5 - Crie um procedimento EM JAVA que imprima o nome das disciplinas cursadas no 2º ano do curso de Engenharia de Software
+
+public class Main
+{
+	public static void main(String[] args) {
+        disc();
+	}
+	
+	static void disc (){
+	    System.out.println("Banco de dados II");
+	    System.out.println("Projeto integrado I");
+	    System.out.println("Análise e projeto de sistemas");
+	    System.out.println("Programação orientada a objetos");
+	    System.out.println("Cálculo I");
+	    System.out.println("Algoritmos e estrutura de dados II");
+	    System.out.println("Interação humano-computador");
+	    System.out.println("Arquitetura de computadores");
+	    System.out.println("Empreendedorismo em tecnologia da informação");
+	}
+}
